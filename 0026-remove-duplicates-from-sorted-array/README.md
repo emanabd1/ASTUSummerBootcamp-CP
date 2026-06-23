@@ -9,7 +9,7 @@
 <p>The judge will test your solution with the following code:</p>
 
 <pre>
-int[] nums = [...]; // Input array
+int[] nums = [...]; 
 int[] expectedNums = [...]; // The expected answer with correct length
 
 int k = removeDuplicates(nums); // Calls your implementation
@@ -49,3 +49,6 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 	<li><code>-100 &lt;= nums[i] &lt;= 100</code></li>
 	<li><code>nums</code> is sorted in <strong>non-decreasing</strong> order.</li>
 </ul>
+
+
+
