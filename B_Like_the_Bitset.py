@@ -30,13 +30,13 @@ for _ in range(t):
     lo = 1
     hi = n
 
-    # assign largest values to 0's
+    
     for i in range(n):
         if s[i] == '0':
             ans[i] = hi
             hi -= 1
 
-    # assign smallest values to 1's
+    
     for i in range(n):
         if s[i] == '1':
             ans[i] = lo
