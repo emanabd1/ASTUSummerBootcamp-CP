@@ -11,12 +11,12 @@ def main():
     for _ in range(t):
         n = int(data[idx]); idx += 1
         s = data[idx]; idx += 1
-        # count differing adjacent pairs in circular string
+        
         D = 0
         for i in range(n):
             if s[i] != s[(i + 1) % n]:
                 D += 1
-        # maximum blocks is min(n, D+1)
+        
         ans = D + 1
         if ans > n:
             ans = n
